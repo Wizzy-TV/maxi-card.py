@@ -20,7 +20,7 @@ setup(
   classifiers=classifiers,
   keywords='discord welcome card',
   package_data={
-    "mariocard": ["fonts/*.ttf"],
+    "maxicard": ["fonts/*.ttf"],
   },
   packages=find_packages(),
   install_requires=['Pillow','easy-pil'] 
