@@ -15,7 +15,7 @@ setup(
   long_description=open('README.rst').read(),
   url='',  
   author='Maxi_TM',
-  author_email='maksymilianratajczak794@gmail.com,
+  author_email='maksymilianratajczak794@gmail.com',
   license='MIT', 
   classifiers=classifiers,
   keywords='discord welcome card',
