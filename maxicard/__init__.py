@@ -7,7 +7,6 @@ class WelcomeCard():
     def __init__(self):
         self.server : str = None
         self.name : str = None
-        self.avatar : str = None
         self.color : str = "violet"
         self.path : str = "https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png"
         self.text : str = "Welcome to the server!"
@@ -19,13 +18,6 @@ class WelcomeCard():
             background = Editor(bgc).resize((900, 300))
         else:
             background = Editor(self.path).resize((900, 300))
-        if(self.avatar != None):
-            profile = await load_image_async(str(self.avatar))
-            if(self.is_rounded):
-                profile = Editor(profile).resize((150, 150)).circle_image()
-            else:
-                profile = Editor(profile).resize((150, 150))
-            background.paste(profile.image, (30, 75))
 
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
