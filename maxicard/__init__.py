@@ -21,7 +21,7 @@ class WelcomeCard():
             (301, 13),
             f"{self.member.id}",
             font=sfmono,
-            color="#c1c1c1",
+            color="#bfbfbf",
         )
         background.text(
             (345, 115),
