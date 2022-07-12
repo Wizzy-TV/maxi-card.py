@@ -18,7 +18,7 @@ class WelcomeCard():
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
 
-        poppins = Font(font_path, size=40)
+        poppins = Font(font_path, size=20)
         background.text((200, 35), str(f'    '+str(self.text)+' '), font=poppins, color="white")
         background.rectangle((275, 85), width=500, height=4, fill=self.color)
         background.text(
