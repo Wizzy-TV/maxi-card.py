@@ -5,6 +5,7 @@ from discord import File, Member
 class WelcomeCard():
 
     def __init__(self):
+        self.member : str = "member"
         self.server : str = None
         self.name : str = None
         self.color : str = "violet"
