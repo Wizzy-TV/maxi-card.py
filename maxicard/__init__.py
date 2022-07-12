@@ -10,7 +10,7 @@ class WelcomeCard():
         self.color : str = "violet"
 
     async def create(self):  
-        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/welcome-bg.png')
+        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/bg.png')
         background = Editor(bgc).resize((552, 156))
 
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
