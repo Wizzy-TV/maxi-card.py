@@ -11,9 +11,8 @@ class WelcomeCard():
         self.text : str = "Welcome to the server!"
         self.is_rounded : bool = False
 
-    async def create(self):
-        
-        background = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/welcome-bg.png')
+    async def create(self):  
+        background = await load_image_async('https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png')
 
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
