@@ -12,8 +12,8 @@ class WelcomeCard():
         self.is_rounded : bool = False
 
     async def create(self):  
-        bgc = await load_image_async('https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png')
-        background = Editor(bgc).resize((900, 300))
+        bgc = await load_image_async('')
+        background = Editor(bgc).resize((552, 156))
 
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
