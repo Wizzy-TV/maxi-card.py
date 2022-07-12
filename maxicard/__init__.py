@@ -41,7 +41,7 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (159, 61),
+            (159, 67),
             f"{self.datetime}",
             font=sfmono,
             color="#c1c1c1",
