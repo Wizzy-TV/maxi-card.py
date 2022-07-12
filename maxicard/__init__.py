@@ -12,7 +12,7 @@ class WelcomeCard():
         self.is_rounded : bool = False
 
     async def create(self):  
-        bgc = await load_image_async('')
+        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/welcome-bg.png')
         background = Editor(bgc).resize((552, 156))
 
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
