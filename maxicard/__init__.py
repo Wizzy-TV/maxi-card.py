@@ -5,7 +5,7 @@ from discord import File, Member
 class WelcomeCard():
 
     def __init__(self):
-        self.member : str = "member"
+        self.member : str = f"{member}"
 
     async def create(self):  
         bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/bg.png')
