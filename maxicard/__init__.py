@@ -28,7 +28,7 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (174, 44),
+            (154, 44),
             f"{self.member}",
             font=sfmono,
             color="#c1c1c1",
