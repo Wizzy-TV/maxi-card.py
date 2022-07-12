@@ -6,8 +6,6 @@ class WelcomeCard():
 
     def __init__(self):
         self.member : str = "member"
-        self.server : str = None
-        self.color : str = "violet"
 
     async def create(self):  
         bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/bg.png')
@@ -30,10 +28,10 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (200, 180),
-            f"New User:",
+            (174, 44),
+            f"{self.member}",
             font=sfmono,
-            color=self.color,
+            color="#c1c1c1",
         )
 
         file = File(fp=background.image_bytes, filename="card.png")
