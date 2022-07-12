@@ -8,8 +8,6 @@ class WelcomeCard():
         self.server : str = None
         self.name : str = None
         self.color : str = "violet"
-        self.text : str = "Welcome to the server!"
-        self.is_rounded : bool = False
 
     async def create(self):  
         bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/welcome-bg.png')
@@ -19,9 +17,8 @@ class WelcomeCard():
         font_path = os.path.join(font_directory, "SFMono.ttf")
 
         sfmono = Font(font_path, size=22)
-        background.text((200, 35), str(f'    '+str(self.text)+' '), font=sfmono, color="white")
         background.text(
-            (200, 120),
+            (200, 35),
             f"Server: ",
             font=sfmono,
             color=self.color,
