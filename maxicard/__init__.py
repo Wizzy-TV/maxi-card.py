@@ -24,10 +24,10 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (345, 115),
-            f"{self.server}",
+            (13, 55),
+            f"username",
             font=sfmono,
-            color="white",
+            color="#c1c1c1",
         )
         background.text(
             (200, 180),
