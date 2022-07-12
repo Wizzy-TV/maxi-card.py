@@ -8,16 +8,12 @@ class WelcomeCard():
         self.server : str = None
         self.name : str = None
         self.color : str = "violet"
-        self.path : str = "https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png"
         self.text : str = "Welcome to the server!"
         self.is_rounded : bool = False
 
     async def create(self):
-        if(self.path.startswith('https://')):
-            bgc = await load_image_async(str(self.path))
-            background = Editor(bgc).resize((900, 300))
-        else:
-            background = Editor(self.path).resize((900, 300))
+        
+        background = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/welcome-bg.png')
 
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
