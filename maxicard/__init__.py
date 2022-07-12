@@ -18,7 +18,7 @@ class WelcomeCard():
 
         sfmono = Font(font_path, size=22)
         background.text(
-            (300, 35),
+            (300, 45),
             f"Server: ",
             font=sfmono,
             color=self.color,
