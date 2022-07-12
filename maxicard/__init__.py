@@ -17,7 +17,7 @@ class WelcomeCard():
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
 
-        sfmono = Font(font_path, size=21.5)
+        sfmono = Font(font_path, size=21)
         background.text(
             (301, 13),
             f"{self.member.id}",
