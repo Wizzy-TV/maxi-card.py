@@ -47,7 +47,7 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (16, 80),
+            (16, 100),
             f"status",
             font=sfmono,
             color="#c1c1c1",
