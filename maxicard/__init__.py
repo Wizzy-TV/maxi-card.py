@@ -7,7 +7,6 @@ class WelcomeCard():
     def __init__(self):
         self.member : str = "member"
         self.server : str = None
-        self.name : str = None
         self.color : str = "violet"
 
     async def create(self):  
@@ -35,12 +34,6 @@ class WelcomeCard():
             f"New User:",
             font=sfmono,
             color=self.color,
-        )
-        background.text(
-            (410, 178),
-            f"{self.name}",
-            font=sfmono,
-            color="white",
         )
 
         file = File(fp=background.image_bytes, filename="card.png")
