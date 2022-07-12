@@ -18,31 +18,30 @@ class WelcomeCard():
         font_directory = os.path.join(os.path.dirname(__file__), "fonts")
         font_path = os.path.join(font_directory, "SFMono.ttf")
 
-        poppins = Font(font_path, size=21)
-        background.text((200, 35), str(f'    '+str(self.text)+' '), font=poppins, color="white")
-        background.rectangle((275, 85), width=500, height=4, fill=self.color)
+        sfmono = Font(font_path, size=21)
+        background.text((200, 35), str(f'    '+str(self.text)+' '), font=sfmono, color="white")
         background.text(
             (200, 120),
             f"Server: ",
-            font=poppins,
+            font=sfmono,
             color=self.color,
         )
         background.text(
             (345, 115),
             f"{self.server}",
-            font=poppins,
+            font=sfmono,
             color="white",
         )
         background.text(
             (200, 180),
             f"New User:",
-            font=poppins,
+            font=sfmono,
             color=self.color,
         )
         background.text(
             (410, 178),
             f"{self.name}",
-            font=poppins,
+            font=sfmono,
             color="white",
         )
 
