@@ -28,13 +28,13 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (145, 38),
+            (159, 38),
             f"{self.member}",
             font=sfmono,
             color="#c1c1c1",
         )
         background.text(
-            (16, 76),
+            (16, 62),
             f"created",
             font=sfmono,
             color="#c1c1c1",
