@@ -58,6 +58,12 @@ class WelcomeCard():
             font=sfmono,
             color="#2dc970",
         )
+        background.text(
+            (16, 108),
+            f"members",
+            font=sfmono,
+            color="#c1c1c1",
+        )
 
         file = File(fp=background.image_bytes, filename="card.png")
         return file
