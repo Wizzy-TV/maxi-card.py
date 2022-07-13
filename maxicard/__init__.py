@@ -66,7 +66,7 @@ class WelcomeCard():
             color="#c1c1c1",
         )
         background.text(
-            (159, 123),
+            (159, 124),
             f"{self.guild.member_count}",
             font=sfmono,
             color="#c1c1c1",
