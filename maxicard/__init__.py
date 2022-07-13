@@ -65,6 +65,13 @@ class WelcomeCard():
             font=sfmono,
             color="#c1c1c1",
         )
+        )
+        background.text(
+            (159, 123),
+            f"{self.guild.member_count}",
+            font=sfmono,
+            color="#c1c1c1",
+        )
 
         file = File(fp=background.image_bytes, filename="card.png")
         return file
