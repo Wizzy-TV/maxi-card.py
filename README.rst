@@ -24,9 +24,10 @@ Welcome Card Example
 
 .. code:: py
 
+   import discord
    from discord.ext import commands
    from maxicard import *
 
-   client = commands.Bot(command_prefix=".") code:: sh
+   client = commands.Bot(command_prefix="!")
 
    client.run("TOKEN")
