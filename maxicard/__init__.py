@@ -54,7 +54,7 @@ class WelcomeCard():
         )
         background.text(
             (159, 85),
-            f"status",
+            f"Joined the server",
             font=sfmono,
             color="#c1c1c1",
         )
