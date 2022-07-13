@@ -56,7 +56,7 @@ class WelcomeCard():
             (159, 94),
             f"Joined the server",
             font=sfmono,
-            color="#c1c1c1",
+            color="#2dc970",
         )
 
         file = File(fp=background.image_bytes, filename="card.png")
