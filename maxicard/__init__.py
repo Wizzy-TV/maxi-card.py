@@ -7,6 +7,7 @@ class WelcomeCard():
     def __init__(self):
         self.member : str = None
         self.datetime : str = None
+        self.guild : str = None
 
     async def create(self):  
         bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/bg.png')
