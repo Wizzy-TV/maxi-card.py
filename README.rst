@@ -61,6 +61,5 @@ Welcome Card Example
 Generated Welcome Card 
 ~~~~~~~~~~~~~~~~~~~~ 
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
-   :target: 
-https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
+   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
    :alt: Created card from example code.
