@@ -50,4 +50,6 @@ Welcome Card Example
        #setting account created time
        card.datetime = ctx.author.created_at.strftime("%d, %B %Y, %H:%M %p")
 
+       #setting server name
+
    client.run("TOKEN")
