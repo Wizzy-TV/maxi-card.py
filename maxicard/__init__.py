@@ -18,7 +18,7 @@ class WelcomeCard():
 
         sfmono = Font(font_path, size=22)
         background.text(
-            (220, 12),
+            (159, 12),
             f"fetch {self.member.id}",
             font=sfmono,
             color="#c1c1c1",
