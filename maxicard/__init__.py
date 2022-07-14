@@ -7,7 +7,7 @@ class WelcomeCard():
     def __init__(self):
         self.member : str = None
         self.datetime : str = None
-        self.guild : str = None
+        self.server : str = None
 
     async def create(self):  
         bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/bg-welcome.png')
@@ -67,7 +67,7 @@ class WelcomeCard():
         )
         background.text(
             (159, 124),
-            f"{self.guild.member_count}",
+            f"{self.server.member_count}",
             font=sfmono,
             color="#c1c1c1",
         )
