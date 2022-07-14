@@ -35,7 +35,19 @@ Welcome Card Example
 
    @client.event
    async def on_member_join(member):
+       #guild definition 
+       guild = member.guild
+
+       #welcome channel definition (id=YourWelcomeChannelID)
+       channel = discord.utils.get(guild.text_channels, id=753239660230082690)
+
        #creating welcome card object
        card = WelcomeCard()
+       
+       #setting member name
+       card.member = member
+
+       #setting account created time
+       card.datetime = ctx.author.created_at.strftime("%d, %B %Y, %H:%M %p")
 
    client.run("TOKEN")
