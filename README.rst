@@ -48,12 +48,12 @@ Welcome Card Example
        card.member = member
 
        #setting account created time
-       card.datetime = ctx.author.created_at.strftime("%d, %B %Y, %H:%M %p")
+       card.datetime = member.created_at.strftime("%d, %B %Y, %H:%M %p")
 
        #setting server name
        card.server = guild
 
        #sending image to discord channel
-       await ctx.send(file=await card.create())
+       await channel.send(file=await card.create())
 
    client.run("TOKEN")
