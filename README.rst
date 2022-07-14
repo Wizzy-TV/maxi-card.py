@@ -35,5 +35,7 @@ Welcome Card Example
 
    @client.event
    async def on_member_join(member):
+     #creating welcome card object
+     card = WelcomeCard()
 
    client.run("TOKEN")
