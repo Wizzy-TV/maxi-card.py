@@ -58,7 +58,7 @@ Welcome Card Example
 
    client.run("TOKEN")
 
-Generated Level Card 
+Generated Welcome Card 
 ~~~~~~~~~~~~~~~~~~~~ 
 .. image:: 
 https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
