@@ -33,4 +33,7 @@ Welcome Card Example
 
    client = commands.Bot(command_prefix="!", intents=intents)
 
+   @client.event
+   async def on_member_join(member):
+
    client.run("TOKEN")
