@@ -28,6 +28,9 @@ Welcome Card Example
    from discord.ext import commands
    from maxicard import *
 
-   client = commands.Bot(command_prefix="!")
+   intents = discord.Intents.default()
+   intents.members = True
+
+   client = commands.Bot(command_prefix="!", Intents=Intents)
 
    client.run("TOKEN")
