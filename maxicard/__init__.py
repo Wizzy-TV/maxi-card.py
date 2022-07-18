@@ -158,8 +158,8 @@ class DeleteCard():
         background = Editor(bgc).resize((1280, 609))
         if(self.avatar != None):
             profile = await load_image_async(str(self.avatar))
-            profile = Editor(profile).resize((377, 377))
-            background.paste(profile.image, (225, 210))
+            profile = Editor(profile).resize((347, 347))
+            background.paste(profile.image, (225, 230))
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
