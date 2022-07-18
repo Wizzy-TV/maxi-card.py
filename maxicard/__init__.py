@@ -153,7 +153,9 @@ class DeleteCard():
     def __init__(self):
         self.avatar : str = None
 
-    async def create(self):  
+    async def create(self):
+        if(self.avatar != None): 
+          profile = await load_image_async(str(self.avatar))  
         bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/delete-bg.png')
         background = Editor(bgc).resize((1280, 609))
         background.text(
