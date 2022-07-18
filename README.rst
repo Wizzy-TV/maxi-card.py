@@ -83,7 +83,7 @@ Leave Card Example
        #guild definition 
        guild = member.guild
 
-       #welcome channel definition (id=YourWelcomeChannelID)
+       #welcome channel definition (id=YourLeaveChannelID)
        channel = discord.utils.get(guild.text_channels, id=753239660230082690)
 
        #creating welcome card object
