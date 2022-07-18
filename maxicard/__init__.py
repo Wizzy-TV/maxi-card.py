@@ -147,3 +147,21 @@ class LeaveCard():
 
         file = File(fp=background.image_bytes, filename="card.png")
         return file
+
+class DeleteCard():
+
+    def __init__(self):
+        self.avatar : str = None
+
+    async def create(self):  
+        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/delete-bg.png')
+        background = Editor(bgc).resize((1280, 609))
+        background.text(
+            (159, 12),
+            f"fetch {self.member.id}",
+            font=sfmono,
+            color="#c1c1c1",
+        )
+        
+        file = File(fp=background.image_bytes, filename="card.png")
+        return file
