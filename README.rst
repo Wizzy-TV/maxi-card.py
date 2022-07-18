@@ -86,7 +86,7 @@ Leave Card Example
        #welcome channel definition (id=YourLeaveChannelID)
        channel = discord.utils.get(guild.text_channels, id=753239660230082690)
 
-       #creating welcome card object
+       #creating leave card object
        card = LeaveCard()
        
        #setting member name
