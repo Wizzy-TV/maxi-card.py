@@ -164,7 +164,7 @@ class DeleteCard():
         file = File(fp=background.image_bytes, filename="card.png")
         return file
 
-class DeleteCard():
+class TrashCard():
 
     def __init__(self):
         self.avatar : str = None
