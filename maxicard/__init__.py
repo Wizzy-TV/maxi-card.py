@@ -175,7 +175,7 @@ class TrashCard():
         if(self.avatar != None):
             profile = await load_image_async(str(self.avatar))
             profile = Editor(profile).resize((200, 200))
-            background.paste(profile.image, (330, 170))
+            background.paste(profile.image, (320, 190))
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
