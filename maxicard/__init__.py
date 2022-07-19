@@ -179,3 +179,19 @@ class TrashCard():
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
+
+class WantedCard():
+
+    def __init__(self):
+        self.avatar : str = None
+
+    async def create(self):
+        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/wanted-bg.png')
+        background = Editor(bgc).resize((736, 959))
+        if(self.avatar != None):
+            profile = await load_image_async(str(self.avatar))
+            profile = Editor(profile).resize((353, 353))
+            background.paste(profile.image, (185, 280))
+        
+        file = File(fp=background.image_bytes, filename="card.png")
+        return file
