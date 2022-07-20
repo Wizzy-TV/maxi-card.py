@@ -206,8 +206,8 @@ class TombstoneCard():
         background = Editor(bgc).resize((400, 313))
         if(self.avatar != None):
             profile = await load_image_async(str(self.avatar))
-            profile = Editor(profile).resize((180, 180))
-            background.paste(profile.image, (90, 90))
+            profile = Editor(profile).resize((150, 150))
+            background.paste(profile.image, (92, 100))
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
