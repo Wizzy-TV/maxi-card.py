@@ -191,7 +191,7 @@ class WantedCard():
         if(self.avatar != None):
             profile = await load_image_async(str(self.avatar))
             profile = Editor(profile).resize((353, 353))
-            background.paste(profile.image, (185, 280))
+            background.paste(profile.image, (185, 310))
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
