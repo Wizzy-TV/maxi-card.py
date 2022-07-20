@@ -176,3 +176,36 @@ Generated Trash Card
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/trash-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/trash-card.png 
    :alt: Created card from example code.
+Tombstone Card Example
+~~~~~~~~~~~~~~~~~~
+
+.. code:: py
+
+   import discord
+   from discord.ext import commands
+   from maxicard import *
+
+   intents = discord.Intents.default()
+   intents.members = True
+
+   client = commands.Bot(command_prefix="!", intents=intents)
+
+   @client.command()
+   async def trash(ctx):
+   
+       #creating tombstone card object
+       card = TombstoneCard()
+       
+       #setting avatar image
+       card.avatar = ctx.author.avatar_url
+
+       #sending image to discord channel
+       await channel.send(file=await card.create())
+
+   client.run("TOKEN")
+
+Generated Trash Card 
+~~~~~~~~~~~~~~~~~~~~ 
+.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
+   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
+   :alt: Created card from example code.
