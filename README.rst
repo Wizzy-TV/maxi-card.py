@@ -204,7 +204,7 @@ Tombstone Card Example
 
    client.run("TOKEN")
 
-Generated Trash Card 
+Generated Tombstone Card 
 ~~~~~~~~~~~~~~~~~~~~ 
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
