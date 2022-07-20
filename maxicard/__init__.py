@@ -211,3 +211,19 @@ class TombstoneCard():
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
+
+class HitlerCard():
+
+    def __init__(self):
+        self.avatar : str = None
+
+    async def create(self):
+        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/hitler-bg.png')
+        background = Editor(bgc).resize((480, 360))
+        if(self.avatar != None):
+            profile = await load_image_async(str(self.avatar))
+            profile = Editor(profile).resize((204, 204))
+            background.paste(profile.image, (70, 61))
+        
+        file = File(fp=background.image_bytes, filename="card.png")
+        return file
