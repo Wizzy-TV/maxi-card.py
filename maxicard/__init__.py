@@ -195,3 +195,19 @@ class WantedCard():
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
+
+class TombstoneCard():
+
+    def __init__(self):
+        self.avatar : str = None
+
+    async def create(self):
+        bgc = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/tombstone-bg.png')
+        background = Editor(bgc).resize((400, 313))
+        if(self.avatar != None):
+            profile = await load_image_async(str(self.avatar))
+            profile = Editor(profile).resize((205, 205))
+            background.paste(profile.image, (240, 174))
+        
+        file = File(fp=background.image_bytes, filename="card.png")
+        return file
