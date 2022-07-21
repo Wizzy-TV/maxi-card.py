@@ -222,7 +222,7 @@ class HitlerCard():
         background = Editor(bgc).resize((480, 360))
         if(self.avatar != None):
             profile = await load_image_async(str(self.avatar))
-            profile = Editor(profile).resize((150, 150))
+            profile = Editor(profile).resize((146, 146))
             background.paste(profile.image, (45, 40))
         
         file = File(fp=background.image_bytes, filename="card.png")
