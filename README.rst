@@ -191,7 +191,7 @@ Tombstone Card Example
    client = commands.Bot(command_prefix="!", intents=intents)
 
    @client.command()
-   async def trash(ctx):
+   async def tombstone(ctx):
    
        #creating tombstone card object
        card = TombstoneCard()
