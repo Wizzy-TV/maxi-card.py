@@ -237,7 +237,7 @@ class PetCard():
         bgc = await load_image_async(str(self.avatar))
         background = Editor(bgc).resize((140, 140))
         if(self.avatar != None):
-            pet = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/hitler-bg.png')
+            pet = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/pet.gif')
             pet = Editor(pet).resize((140, 140))
             background.paste(pet.image, (1, 1))
         
