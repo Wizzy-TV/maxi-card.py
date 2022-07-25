@@ -143,6 +143,40 @@ Generated Wanted Card
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/wanted-card.png 
    :alt: Created card from example code.
 
+Delete Card Example
+~~~~~~~~~~~~~~~~~~
+
+.. code:: py
+
+   import discord
+   from discord.ext import commands
+   from maxicard import *
+
+   intents = discord.Intents.default()
+   intents.members = True
+
+   client = commands.Bot(command_prefix="!", intents=intents)
+
+   @client.command()
+   async def delete(ctx):
+   
+       #creating delete card object
+       card = DeleteCard()
+       
+       #setting avatar image
+       card.avatar = ctx.author.avatar_url
+
+       #sending image to discord channel
+       await channel.send(file=await card.create())
+
+   client.run("TOKEN")
+
+Generated Delete Card 
+~~~~~~~~~~~~~~~~~~~~ 
+.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/delete-card.png 
+   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/delete-card.png 
+   :alt: Created card from example code.
+
 Trash Card Example
 ~~~~~~~~~~~~~~~~~~
 
