@@ -1,5 +1,5 @@
 maxi-card.py
-==========
+============
 
 This is simple maker for welcome and leave cards in discord bot in discord.py or pycord.
 
