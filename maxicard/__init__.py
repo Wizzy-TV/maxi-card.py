@@ -234,6 +234,9 @@ class JailCard():
         self.avatar : str = None
 
     async def create(self):
+        if self.avatar == None:
+          print(f"{self.avatar} is a required argument that is missing.")
+
         bgc = await load_image_async(str(self.avatar))
         background = Editor(bgc).resize((350, 350))
         if(self.avatar != None):
