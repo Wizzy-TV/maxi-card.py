@@ -133,7 +133,7 @@ Wanted Card Example
        card.avatar = ctx.author.avatar_url
 
        #sending image to discord channel
-       await channel.send(file=await card.create())
+       await ctx.send(file=await card.create())
 
    client.run("TOKEN")
 
@@ -167,7 +167,7 @@ Delete Card Example
        card.avatar = ctx.author.avatar_url
 
        #sending image to discord channel
-       await channel.send(file=await card.create())
+       await ctx.send(file=await card.create())
 
    client.run("TOKEN")
 
@@ -201,7 +201,7 @@ Trash Card Example
        card.avatar = ctx.author.avatar_url
 
        #sending image to discord channel
-       await channel.send(file=await card.create())
+       await ctx.send(file=await card.create())
 
    client.run("TOKEN")
 
@@ -235,7 +235,7 @@ Tombstone Card Example
        card.avatar = ctx.author.avatar_url
 
        #sending image to discord channel
-       await channel.send(file=await card.create())
+       await ctx.send(file=await card.create())
 
    client.run("TOKEN")
 
@@ -269,7 +269,7 @@ Hitler Card Example
        card.avatar = ctx.author.avatar_url
 
        #sending image to discord channel
-       await channel.send(file=await card.create())
+       await ctx.send(file=await card.create())
 
    client.run("TOKEN")
 
@@ -303,7 +303,7 @@ Jail Card Example
        card.avatar = ctx.author.avatar_url
 
        #sending image to discord channel
-       await channel.send(file=await card.create())
+       await ctx.send(file=await card.create())
 
    client.run("TOKEN")
 
