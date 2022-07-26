@@ -20,7 +20,7 @@ Installing
 
 
 Welcome Card Example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -58,8 +58,8 @@ Welcome Card Example
 
    client.run("TOKEN")
 
-Generated Welcome Card 
-~~~~~~~~~~~~~~~~~~~~ 
+Generated Welcome Card
+~~~~~~~~~~~~~~~~~~~~~~ 
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
    :alt: Created card from example code.
@@ -110,7 +110,7 @@ Generated Leave Card
    :alt: Created card from example code.
 
 Wanted Card Example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -138,13 +138,13 @@ Wanted Card Example
    client.run("TOKEN")
 
 Generated Wanted Card 
-~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/wanted-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/wanted-card.png 
    :alt: Created card from example code.
 
 Delete Card Example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -172,7 +172,7 @@ Delete Card Example
    client.run("TOKEN")
 
 Generated Delete Card 
-~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/delete-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/delete-card.png 
    :alt: Created card from example code.
@@ -212,7 +212,7 @@ Generated Trash Card
    :alt: Created card from example code.
 
 Tombstone Card Example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -240,13 +240,13 @@ Tombstone Card Example
    client.run("TOKEN")
 
 Generated Tombstone Card 
-~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
    :alt: Created card from example code.
 
 Hitler Card Example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -274,13 +274,13 @@ Hitler Card Example
    client.run("TOKEN")
 
 Generated Hitler Card 
-~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/hitler-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/hitler-card.png 
    :alt: Created card from example code.
 
 Jail Card Example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -308,7 +308,7 @@ Jail Card Example
    client.run("TOKEN")
 
 Generated Jail Card 
-~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/jail-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/jail-card.png 
    :alt: Created card from example code.
