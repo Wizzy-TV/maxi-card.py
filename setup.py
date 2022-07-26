@@ -23,5 +23,5 @@ setup(
     "maxicard": ["fonts/*.ttf"],
   },
   packages=find_packages(),
-  install_requires=['Pillow','easy-pil'] 
+  install_requires=['Pillow','easy-pil==0.1.6'] 
 )
