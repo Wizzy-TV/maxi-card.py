@@ -1,5 +1,5 @@
 import os
-from easy_pil import Editor, load_image_async, Font
+from easy_pil import Editor, Canvas, load_image_async, Font
 from discord import File, Member
 
 class WelcomeCard():
