@@ -50,7 +50,7 @@ Welcome Card Example
        #setting account created time
        card.datetime = member.created_at.strftime("%d, %B %Y, %H:%M %p")
 
-       #setting server name
+       #setting server
        card.server = guild
 
        #sending image to discord channel
@@ -95,7 +95,7 @@ Leave Card Example
        #setting account created time
        card.datetime = member.created_at.strftime("%d, %B %Y, %H:%M %p")
 
-       #setting server name
+       #setting server
        card.server = guild
 
        #sending image to discord channel
