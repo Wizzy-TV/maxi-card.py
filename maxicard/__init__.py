@@ -243,3 +243,19 @@ class JailCard():
         
         file = File(fp=background.image_bytes, filename="card.png")
         return file
+
+class PassedCard():
+
+    def __init__(self):
+        self.avatar : str = None
+
+    async def create(self):
+        bgc = await load_image_async(str(self.avatar))
+        background = Editor(bgc).resize((512, 512))
+        if(self.avatar != None):
+            passed = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/passed-bg.png')
+            jail = Editor(passed).resize((512, 512))
+            background.paste(passed.image, (0, 0))
+        
+        file = File(fp=background.image_bytes, filename="card.png")
+        return file
