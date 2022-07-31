@@ -314,7 +314,7 @@ Generated Jail Card
    :alt: Created card from example code.
 
 Passed Card Example
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
