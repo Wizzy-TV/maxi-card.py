@@ -60,8 +60,8 @@ Welcome Card Example
 
 Generated Welcome Card
 ~~~~~~~~~~~~~~~~~~~~~~ 
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/welcome-card.png 
+.. image:: created_cards/welcome-card.png 
+   :target: created_cards/welcome-card.png 
    :alt: Created card from example code.
 
 Leave Card Example
@@ -105,8 +105,8 @@ Leave Card Example
 
 Generated Leave Card 
 ~~~~~~~~~~~~~~~~~~~~ 
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/leave-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/leave-card.png 
+.. image:: created_cards/leave-card.png 
+   :target: created_cards/leave-card.png 
    :alt: Created card from example code.
 
 Wanted Card Example
@@ -139,8 +139,8 @@ Wanted Card Example
 
 Generated Wanted Card 
 ~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/wanted-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/wanted-card.png 
+.. image:: created_cards/wanted-card.png 
+   :target: created_cards/wanted-card.png 
    :alt: Created card from example code.
 
 Delete Card Example
@@ -173,8 +173,8 @@ Delete Card Example
 
 Generated Delete Card 
 ~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/delete-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/delete-card.png 
+.. image:: created_cards/delete-card.png 
+   :target: created_cards/delete-card.png 
    :alt: Created card from example code.
 
 Trash Card Example
@@ -207,8 +207,8 @@ Trash Card Example
 
 Generated Trash Card 
 ~~~~~~~~~~~~~~~~~~~~ 
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/trash-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/trash-card.png 
+.. image:: created_cards/trash-card.png 
+   :target: created_cards/trash-card.png 
    :alt: Created card from example code.
 
 Tombstone Card Example
@@ -241,8 +241,8 @@ Tombstone Card Example
 
 Generated Tombstone Card 
 ~~~~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/tombstone-card.png 
+.. image:: created_cards/tombstone-card.png 
+   :target: created_cards/tombstone-card.png 
    :alt: Created card from example code.
 
 Hitler Card Example
@@ -275,8 +275,8 @@ Hitler Card Example
 
 Generated Hitler Card 
 ~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/hitler-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/hitler-card.png 
+.. image:: created_cards/hitler-card.png 
+   :target: created_cards/hitler-card.png 
    :alt: Created card from example code.
 
 Jail Card Example
@@ -309,8 +309,8 @@ Jail Card Example
 
 Generated Jail Card 
 ~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/jail-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/jail-card.png 
+.. image:: created_cards/jail-card.png 
+   :target: created_cards/jail-card.png 
    :alt: Created card from example code.
 
 Passed Card Example
@@ -343,6 +343,6 @@ Passed Card Example
 
 Generated Passed Card 
 ~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/passed-card.png 
-   :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/passed-card.png 
+.. image:: created_cards/passed-card.png 
+   :target: created_cards/passed-card.png 
    :alt: Created card from example code.
