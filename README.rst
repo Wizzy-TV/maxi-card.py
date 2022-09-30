@@ -314,7 +314,7 @@ Generated Jail Card
    :alt: Created card from example code.
 
 Passed Card Example
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. code:: py
 
@@ -342,7 +342,7 @@ Passed Card Example
    client.run("TOKEN")
 
 Generated Passed Card 
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/passed-card.png 
    :target: https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/created_cards/passed-card.png 
    :alt: Created card from example code.
