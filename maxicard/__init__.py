@@ -339,12 +339,13 @@ class PassedCard():
         self.avatar : str = None
 
     async def create(self):
-
-        img_directory = os.path.join(os.path.dirname(__file__), "imgs")
-        img_path = os.path.join(img_directory, "passed-bg.png")
-
-        background = Editor(img_path).resize((512, 512))
+        bgc = await load_image_async(str(self.avatar))
+        background = Editor(bgc).resize((350, 350))
         if(self.avatar != None):
+
+            img_directory = os.path.join(os.path.dirname(__file__), "imgs")
+            img_path = os.path.join(img_directory, "passed-bg.png")
+
             passed = Editor(img_path).resize((512, 512))
             background.paste(passed.image, (0, 0))
         
