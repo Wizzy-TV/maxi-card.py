@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='maxi-card.py',
-  version='1.0.4',
+  version='1.0.3',
   description='This is simple maker for cards welcome and leave in discord bot.',
   long_description=open('README.rst').read(),
   url='',  
