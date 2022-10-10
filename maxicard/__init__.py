@@ -320,14 +320,14 @@ class JailCard():
         self.avatar : str = None
 
     async def create(self):
-
-        img_directory = os.path.join(os.path.dirname(__file__), "imgs")
-        img_path = os.path.join(img_directory, "jail-bg.png")
-
-        background = Editor(img_path).resize((350, 350))
+        bgc = await load_image_async(str(self.avatar))
+        background = Editor(bgc).resize((350, 350))
         if(self.avatar != None):
-            jail = await load_image_async('https://raw.githubusercontent.com/Maxi-TM/maxi-card.py/main/maxicard/imgs/jail-bg.png')
-            jail = Editor(jail).resize((350, 350))
+
+            img_directory = os.path.join(os.path.dirname(__file__), "imgs")
+            img_path = os.path.join(img_directory, "jail-bg.png")
+
+            jail = Editor(img_path).resize((350, 350))
             background.paste(jail.image, (0, 0))
         
         file = File(fp=background.image_bytes, filename="card.png")
