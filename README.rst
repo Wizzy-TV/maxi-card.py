@@ -1,3 +1,6 @@
+This project is not longer supported!
+==================================
+
 maxi-card.py
 ============
 
